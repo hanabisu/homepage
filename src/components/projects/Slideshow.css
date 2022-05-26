@@ -9,11 +9,13 @@
     margin-bottom: 30px;
   }
 
-  .slides {
-    display: none;
-  }
+.slides {
+  display: none;
+  height: 60vh;
+  justify-content: center;
+}
 
-  .img {
+.slides img {
     max-width:100%;
     max-height:100%;
   }
@@ -25,7 +27,7 @@
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #E1AAA5;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -46,7 +48,7 @@
     color: #717171;
     font-size: 15px;
     position: absolute;
-    bottom: -15px;
+    bottom: -25px;
     width: 100%;
     text-align: center;
   }

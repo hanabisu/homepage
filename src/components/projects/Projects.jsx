@@ -103,9 +103,9 @@ function Projects() {
     description: ["This project was created at my first hackathon. I learned the basics of the Kivvy framework in order to create a simple 'Choose your own adventure' game. I participated in design discussions to make sure the scope of the project was not too large for the time and experience that we had. I worked on figuring out how to get the user input from the front end so that the backend can proceed to the next step in the game, based on the path that was selected."],
     slideshow: [
       { img: SnapSavingsThumbnail, description: 'Landing page' },
-      { img: SnapSavingsFirst, description: 'Landing page' },
-      { img: SnapSavingsSecond, description: 'Landing page' },
-      { img: SnapSavingsThird, description: 'Landing page' }],
+      { img: SnapSavingsFirst, description: 'First step where user decides what their goal is' },
+      { img: SnapSavingsThird, description: 'Option for the user to choose what they want to do with their money' },
+      { img: SnapSavingsSecond, description: 'Option to choose how they want to save with their money' }],
     links: [{
       icon: faLink,
       linkText: 'cmd-f 2020 hackathon submission',

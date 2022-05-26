@@ -40,6 +40,7 @@ function ProjectModal(props) {
         <LabelledData label="used" data={project.techStack} />
         <LabelledData label="team" data={project.team} />
         {project.links && project.links.map((l) => <Link key={l.linkText.replaceAll(' ', '-')} icon={l.icon} linkText={l.linkText} link={l.link} />)}
+        <div style={{ margin: '10px' }} />
         {project.slideshow && <Slideshow images={project.slideshow} />}
         {project.videoID && <VideoPlayer id={project.videoID} />}
         {project.description.map((d, i) => <p key={`desc-part-${i}`}>{d}</p>)}

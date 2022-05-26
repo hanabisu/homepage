@@ -28,7 +28,7 @@ function Slideshow(props) {
       <div className="slideshow-container">
         {props.images.map((img, index) => (
           // eslint-disable-next-line react/no-array-index-key
-          <div key={`img-${index}`} className="slides fade" style={index === slideIndex ? { display: 'block' } : {}}>
+          <div key={`img-${index}`} className="slides fade" style={index === slideIndex ? { display: 'flex' } : { }}>
             <img src={img.img} alt="" />
             <div className="text">{img.description}</div>
           </div>
