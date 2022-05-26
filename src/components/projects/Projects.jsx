@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { faArrowUpRightFromSquare, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faLink, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import GSMLandingPage from '../../imgs/gsm/landing.png';
 import GSMLogin from '../../imgs/gsm/login.png';
 import GSMManageTournament from '../../imgs/gsm/manageTournaments.png';
@@ -55,6 +55,11 @@ function Projects() {
       icon: faArrowUpRightFromSquare,
       linkText: 'Demo',
       link: 'https://www.students.cs.ubc.ca/~cs-436v/22Jan/fame/projects/project_g22/index.html',
+    },
+    {
+      icon: faTrophy,
+      linkText: "Featured in course's Hall of Fame",
+      link: 'https://www.students.cs.ubc.ca/~cs-436v/22Jan/fame/',
     }],
   },
   {
