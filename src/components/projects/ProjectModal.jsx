@@ -20,6 +20,14 @@ function ProjectModal(props) {
   const stopPropagation = (e) => {
     e.stopPropagation();
   };
+
+  React.useEffect(() => {
+    if (modalOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+  }, [modalOpen]);
   return (
     <div className={`modal ${modalOpen ? 'display-block fadein' : 'fadeout display-none'}`}>
       <div className="modal-content" onClick={(e) => stopPropagation(e)}>
