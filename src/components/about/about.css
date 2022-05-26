@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Square Peg', cursive;
+    font-size: 5rem;
+    color: #FF8B94;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #4A4B58;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #4A4B58;
+}
+
+.about-section {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.about-content {
+    text-align: left;
+}

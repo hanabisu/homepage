@@ -1,0 +1,17 @@
+.link-data {
+    display: flex;
+    margin: 2px;
+    align-items: center;
+}
+
+a svg {
+    margin-right: 5px;
+}
+
+a:hover {
+    color:#FF8B94;
+}
+
+a span:hover {
+    color:#FF8B94;
+}

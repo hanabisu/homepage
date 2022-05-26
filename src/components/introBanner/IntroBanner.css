@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'Square Peg', cursive;
+    font-size: 5rem;
+    color: #FF8B94;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Square Peg', cursive;
+    font-size: 2rem;
+    color: #FF8B94;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #4A4B58;
+}
+
+.intro-banner-section {
+    min-height: 50vh;
+}

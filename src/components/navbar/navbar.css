@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background: #FFF;
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+    margin:0;
+}
+
+.items{
+    list-style-type: none;
+    display: grid;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.items :hover{
+    color:#FF8B94;
+}
+
+a {
+    text-decoration: none;
+    color: #E1AAA5;
+}
+/* /*E1AAA5 */

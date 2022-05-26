@@ -1,0 +1,13 @@
+.labelled-data {
+    display: flex;
+    margin: 2px;
+}
+
+.label {
+    color: #E1AAA5;
+    margin-right: 10px;
+}
+
+.data {
+    color: #585756;
+}
