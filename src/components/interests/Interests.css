@@ -1,6 +1,7 @@
 .interests {
     justify-content: center;
     top: -250px;
+    margin-bottom: 20px;
 }
 .interests .column {
     float: left;
