@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.dd359c98.css",
-    "main.js": "/homepage/static/js/main.8e27d63f.js",
-    "static/js/787.5c39024c.chunk.js": "/homepage/static/js/787.5c39024c.chunk.js",
-    "static/media/third.png": "/homepage/static/media/third.472b5323c2530dd1da45.png",
-    "static/media/first.png": "/homepage/static/media/first.a346ad73f85146158942.png",
-    "static/media/second.png": "/homepage/static/media/second.6540dc45d1da8d09420b.png",
-    "static/media/snapSavingsThumbnail.png": "/homepage/static/media/snapSavingsThumbnail.5bf846190a91ffaa0c24.png",
-    "static/media/thumbnail.png": "/homepage/static/media/thumbnail.a3a2a1d7332f9585d7ca.png",
-    "static/media/gardenGnomeLanding.png": "/homepage/static/media/gardenGnomeLanding.6be5839d49ccafdfd3c2.png",
-    "static/media/landing.png": "/homepage/static/media/landing.40019466e45b0792ca9f.png",
-    "static/media/registration.png": "/homepage/static/media/registration.88c8b1ecac445aa0d19c.png",
-    "static/media/manageTournaments.png": "/homepage/static/media/manageTournaments.4dca3394ae6b980c986b.png",
-    "static/media/byYear.png": "/homepage/static/media/byYear.1637cd0d544b8d863bb7.png",
-    "static/media/dailyCheckupThumbnail.png": "/homepage/static/media/dailyCheckupThumbnail.030011c984c2ec1d719b.png",
-    "static/media/login.png": "/homepage/static/media/login.a9018f242fc14da76729.png",
-    "index.html": "/homepage/index.html",
-    "main.dd359c98.css.map": "/homepage/static/css/main.dd359c98.css.map",
-    "main.8e27d63f.js.map": "/homepage/static/js/main.8e27d63f.js.map",
-    "787.5c39024c.chunk.js.map": "/homepage/static/js/787.5c39024c.chunk.js.map"
+    "main.css": "/static/css/main.dd359c98.css",
+    "main.js": "/static/js/main.39a1b0e4.js",
+    "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
+    "static/media/third.png": "/static/media/third.472b5323c2530dd1da45.png",
+    "static/media/first.png": "/static/media/first.a346ad73f85146158942.png",
+    "static/media/second.png": "/static/media/second.6540dc45d1da8d09420b.png",
+    "static/media/snapSavingsThumbnail.png": "/static/media/snapSavingsThumbnail.5bf846190a91ffaa0c24.png",
+    "static/media/thumbnail.png": "/static/media/thumbnail.a3a2a1d7332f9585d7ca.png",
+    "static/media/gardenGnomeLanding.png": "/static/media/gardenGnomeLanding.6be5839d49ccafdfd3c2.png",
+    "static/media/landing.png": "/static/media/landing.40019466e45b0792ca9f.png",
+    "static/media/registration.png": "/static/media/registration.88c8b1ecac445aa0d19c.png",
+    "static/media/manageTournaments.png": "/static/media/manageTournaments.4dca3394ae6b980c986b.png",
+    "static/media/byYear.png": "/static/media/byYear.1637cd0d544b8d863bb7.png",
+    "static/media/dailyCheckupThumbnail.png": "/static/media/dailyCheckupThumbnail.030011c984c2ec1d719b.png",
+    "static/media/login.png": "/static/media/login.a9018f242fc14da76729.png",
+    "index.html": "/index.html",
+    "main.dd359c98.css.map": "/static/css/main.dd359c98.css.map",
+    "main.39a1b0e4.js.map": "/static/js/main.39a1b0e4.js.map",
+    "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd359c98.css",
-    "static/js/main.8e27d63f.js"
+    "static/js/main.39a1b0e4.js"
   ]
 }
