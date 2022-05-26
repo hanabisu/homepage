@@ -6,7 +6,7 @@ function Interests() {
   const interestList = [
     { label: 'current hobby', value: 'learning to make bubble tea' },
     { label: 'next dream destination', value: 'Hawaii' },
-    { label: 'current favourite toronto eats', value: 'Pocha 1898', link: '' },
+    { label: 'current favourite toronto eats', value: 'Pocha 1989', link: '' },
     { label: 'current favourite vancouver eats', value: 'Minami', link: '' },
     { label: 'favourite fruit', value: 'yuzu', link: '' },
     { label: 'favourite vegetable', value: 'eggplant', link: '' },
