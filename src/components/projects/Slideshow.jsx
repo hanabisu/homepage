@@ -27,7 +27,8 @@ function Slideshow(props) {
     <>
       <div className="slideshow-container">
         {props.images.map((img, index) => (
-          <div className="slides fade" style={index === slideIndex ? { display: 'block' } : {}}>
+          // eslint-disable-next-line react/no-array-index-key
+          <div key={`img-${index}`} className="slides fade" style={index === slideIndex ? { display: 'block' } : {}}>
             <img src={img.img} alt="" />
             <div className="text">{img.description}</div>
           </div>
@@ -39,7 +40,8 @@ function Slideshow(props) {
     && (
     <div className="dots">
       {props.images.map((img, index) => (
-        <span className={index === slideIndex ? 'dot active' : 'dot'} onClick={() => goToSlide(index)} />
+        // eslint-disable-next-line react/no-array-index-key
+        <span key={`dot-${index}`} className={index === slideIndex ? 'dot active' : 'dot'} onClick={() => goToSlide(index)} />
       ))}
     </div>
     )}

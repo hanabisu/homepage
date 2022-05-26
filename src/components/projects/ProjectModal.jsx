@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -30,10 +31,10 @@ function ProjectModal(props) {
         <LabelledData label="role" data={project.role} />
         <LabelledData label="used" data={project.techStack} />
         <LabelledData label="team" data={project.team} />
-        {project.links && project.links.map((l) => <Link icon={l.icon} linkText={l.linkText} link={l.link} />)}
+        {project.links && project.links.map((l) => <Link key={l.linkText.replaceAll(' ', '-')} icon={l.icon} linkText={l.linkText} link={l.link} />)}
         {project.slideshow && <Slideshow images={project.slideshow} />}
         {project.videoID && <VideoPlayer id={project.videoID} />}
-        {project.description.map((d) => <p>{d}</p>)}
+        {project.description.map((d, i) => <p key={`desc-part-${i}`}>{d}</p>)}
       </div>
     </div>
   );

@@ -119,7 +119,7 @@ function Projects() {
       <div className="projectGrid">
         <div className="row">
           {projectList.map((p) => (
-            <div className="column">
+            <div className="column" key={p.projectName.replaceAll(' ', '-')}>
               <Project project={p} />
             </div>
           ))}

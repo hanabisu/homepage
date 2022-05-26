@@ -20,7 +20,7 @@ function Interests() {
       <div className="interests">
         <div className="row">
           {interestList.map((i) => (
-            <div className="column">
+            <div className="column" key={i.label.replaceAll(' ', '-')}>
               <Interest label={i.label} value={i.value} />
             </div>
           ))}
