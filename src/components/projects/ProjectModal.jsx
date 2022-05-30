@@ -38,7 +38,7 @@ function ProjectModal(props) {
         <LabelledData label="when" data={project.when} />
         <LabelledData label="role" data={project.role} />
         <LabelledData label="used" data={project.techStack} />
-        <LabelledData label="team" data={project.team} />
+        <LabelledData label="setting" data={`${project.projectType}, ${project.team}`} />
         {project.links && project.links.map((l) => <Link key={l.linkText.replaceAll(' ', '-')} icon={l.icon} linkText={l.linkText} link={l.link} />)}
         <div style={{ margin: '10px' }} />
         {project.slideshow && <Slideshow images={project.slideshow} />}
