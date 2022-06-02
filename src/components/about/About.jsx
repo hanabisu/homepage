@@ -17,8 +17,7 @@ function About() {
     link: 'https://github.com/hanabisu',
   }];
   return (
-    <div className="about-section">
-      <span className="anchor" id="about" />
+    <div className="about-section" id="about">
       <h1>about me</h1>
       <div className="about-content">
         <p>Since high school, I&apos;ve had a passion for software engineering. I really enjoyed the challenges that come with developing an application and the feeling you get when you fix a bug or complete a project.</p>

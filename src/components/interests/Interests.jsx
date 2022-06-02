@@ -15,17 +15,14 @@ function Interests() {
     { label: 'watching', value: 'This is Us' },
   ];
   return (
-    <div>
-      <span className="anchor" id="interests" />
+    <div className="interests-section" id="interests">
       <h1>interests</h1>
-      <div className="interests">
-        <div className="row">
-          {interestList.map((i) => (
-            <div className="column" key={i.label.replaceAll(' ', '-')}>
-              <Interest label={i.label} value={i.value} />
-            </div>
-          ))}
-        </div>
+      <div className="row">
+        {interestList.map((i) => (
+          <div className="column" key={i.label.replaceAll(' ', '-')}>
+            <Interest label={i.label} value={i.value} />
+          </div>
+        ))}
       </div>
     </div>
   );

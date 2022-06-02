@@ -1,50 +1,51 @@
 .project-card {
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-    padding: 16px;
-    text-align: left;
-    border: 1px solid #f1f1f1;
-    /* background-color: #f1f1f1; */
-    margin: 20px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  padding: 16px;
+  text-align: left;
+  border: 1px solid #f1f1f1;
+  /* background-color: #f1f1f1; */
+  margin: 20px;
 }
+
 .project-card:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .project-card h3 {
-    font-family: 'Quicksand', sans-serif;
-    color: #FF8B94;
-    margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  color: #ff8b94;
+  margin: 0px;
 }
 
 .img-container {
-   height: 150px;
-   max-width: 95%;
-   margin-top: 10px;
-   margin-bottom: 10px;
+  height: 150px;
+  max-width: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 img {
-    max-width:100%;
-    max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 h5 {
-    font-family: 'Quicksand', sans-serif;
-    color: #E1AAA5;
-    margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  color: #e1aaa5;
+  margin: 0px;
 }
 
 button {
-    font-family: 'Quicksand', sans-serif;
-    border: none;
-    margin: 10px;
-    cursor: pointer;
-    color: #E1AAA5;
-    font-weight:bold;
-    float: right;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  color: #e1aaa5;
+  font-weight: bold;
+  float: right;
 }
 
 button:hover {
-    color: #FF8B94;
+  color: #ff8b94;
 }

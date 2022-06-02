@@ -1,12 +1,10 @@
 .interest-card {
-     padding: 16px;
-     text-align: left;
-     /* border: 1px solid #f1f1f1; */
-     background-color: #f1f1f1;
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
 }
 
 .interest-card h2 {
-  color:  #FF8B94;
-  /* font-family: 'Quicksand', sans-serif; */
+  color: #ff8b94;
   margin: 2px;
 }

@@ -1,23 +1,23 @@
 h1 {
-    font-family: 'Square Peg', cursive;
-    font-size: 5rem;
-    color: #FF8B94;
+  font-family: "Square Peg", cursive;
+  font-size: 5rem;
+  color: #ff8b94;
 }
 
 h2 {
-    font-family: 'Quicksand', sans-serif;
-    color: #4A4B58;
+  font-family: "Quicksand", sans-serif;
+  color: #4a4b58;
 }
 
 h3 {
-    font-family: 'Quicksand', sans-serif;
-    color: #4A4B58;
+  font-family: "Quicksand", sans-serif;
+  color: #4a4b58;
 }
 
 .about-section {
-    padding-left: 20%;
-    padding-right: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .about-content {
-    text-align: left;
+  text-align: left;
 }

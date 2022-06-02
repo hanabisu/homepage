@@ -125,8 +125,7 @@ function Projects() {
     }],
   }];
   return (
-    <div className="projects">
-      <span className="anchor" id="projects" />
+    <div className="projects" id="projects">
       <h1>projects</h1>
       <div className="projectGrid">
         <div className="row">

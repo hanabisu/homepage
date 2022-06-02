@@ -1,32 +1,33 @@
-.interests {
-    justify-content: center;
-    top: -250px;
-    margin-bottom: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
+.interests-section {
+  justify-content: center;
+  top: -250px;
+  margin-bottom: 200px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
-.interests .column {
-    float: left;
-    padding: 0 10px 10px;
-}
-    
-.interests .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-  /* Clear floats after the columns */
-  .interests .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
-  /* Responsive columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
+.interests-section .column {
+  float: left;
+  padding: 0 10px 10px;
+}
+
+.interests-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Clear floats after the columns */
+.interests-section .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
+}
