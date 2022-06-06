@@ -26,8 +26,10 @@ import './Projects.css';
 
 function Projects() {
   const projectList = [{
+    id: 'gamesetmatch',
     projectName: 'GameSetMatch',
     projectType: 'School project',
+    projectTypeDetails: 'Course: Software Engineering Project, University of British Columbia',
     role: 'Project Manager, Full Stack Developer',
     img: GSMLandingPage,
     techStack: 'React, TypeScript, Springboot, Java, MySQL, Amazon AWS (RDS, ElasticBeanstalk, Amplify)',
@@ -44,8 +46,10 @@ function Projects() {
       { img: GSMRegistration, description: 'Registration page for a tournament' }],
   },
   {
+    id: 'bored-games',
     projectName: 'Bored? Games!',
     projectType: 'School project',
+    projectTypeDetails: 'Course: Topics in Computer Science - Information Visualization, University of British Columbia',
     role: 'Developer',
     img: BoardGameThumbnail,
     imgAlt: '',
@@ -67,9 +71,10 @@ function Projects() {
     }],
   },
   {
+    id: 'daily-checkup',
     projectName: 'Daily CheckUp',
     role: 'Full Stack Developer',
-    projectType: 'Side Project',
+    projectType: 'Personal Project',
     img: DailyCheckupThumbnail,
     imgAlt: '',
     when: 'December 2021 - March 2022',
@@ -85,6 +90,7 @@ function Projects() {
 
   },
   {
+    id: 'garden-gnome',
     projectName: 'Garden Gnome',
     projectType: 'Hackathon project',
     role: 'Full Stack Developer',
@@ -103,6 +109,7 @@ function Projects() {
     }],
   },
   {
+    id: 'snap-savings',
     projectName: 'Snap Savings!',
     projectType: 'Hackathon project',
     role: 'Full Stack Developer',

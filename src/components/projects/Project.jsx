@@ -11,7 +11,7 @@ function Project({ project }) {
   };
   return (
     // eslint-disable-next-line jsx-a11y/no-static-element-interactions
-    <div className="project-card" onClick={openModal} onKeyPress={openModal}>
+    <div className="project-card" onClick={openModal} onKeyPress={openModal} id={project.id}>
       <h3>{project.projectName}</h3>
       <h5>{project.techStack}</h5>
       <div className="img-container">
