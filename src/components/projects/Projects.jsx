@@ -39,7 +39,7 @@ function Projects() {
     intro: 'A tournament scheduling web application',
     description: ['I was the Project Manager and Software Engineer on this project that started with creating documentation (Terms of Reference, Project Plan, Requirements, Technical Design), before development began.',
       'As project manager, I ensured that key project components  were completed on time, and that non-essential functionality was quickly identified and sidelined. I delegated tasks to teammates based on their strengths and interests.',
-      "As developer, I built the 'Manage Tournaments' and 'Registration' modules by creating the user experience, relevant API calls, and database queries necessary for the end-to-end flow. I also reviewed 90% of the PRs and refactored code when necessray. I researched how to deploy our application using AWS, resulting in being responsible for managing versions and deployments."],
+      "As developer, I built the 'Manage Tournaments' and 'Registration' modules by creating the user experience, relevant API calls, and database queries necessary for the end-to-end flow. I also reviewed 90% of the PRs and refactored code when necessary. I researched how to deploy our application using AWS, resulting in being responsible for managing versions and deployments."],
     slideshow: [{ img: GSMLogin, description: 'Login page' },
       { img: GSMLandingPage, description: 'Landing page' },
       { img: GSMManageTournament, description: 'Where you can manage the tournaments you have created' },
